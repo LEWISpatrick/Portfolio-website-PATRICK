@@ -3,11 +3,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import { Hero } from "./hero";
-import { EditedVideos } from "./edited-videos";
-import { Channels } from "./channels";
-import { Calendly } from "./calendly";
+import { Projects } from "./projects";
+import { Reviews } from "./Reviews";
 import { Footer } from "./footer";
-import { EditedShorts } from "./edited-shorts";
+import { BeginerProjects } from "./beginer-projects";
 
 
 export const LandingPage = () => {
@@ -28,17 +27,15 @@ export const LandingPage = () => {
             <Hero />
 
             {/* Edited Videos*/}
-            <EditedVideos />
+            <Projects />
 
             {/* Shorts Edited Videos*/}
 
-            <EditedShorts />
+            <BeginerProjects />
 
             {/* Channels Worked With*/}
-            <Channels />
+            <Reviews />
 
-            {/* Calendly Booking Page*/}
-            <Calendly />
           </div>
 
           
