@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import { Hero } from "./hero";
 import { Projects } from "./projects";
-import { Reviews } from "./Reviews";
+import { Reviews } from "./reviews";
 import { Footer } from "./footer";
 import { BeginerProjects } from "./beginer-projects";
 
