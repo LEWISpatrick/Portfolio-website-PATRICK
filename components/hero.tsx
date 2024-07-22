@@ -11,7 +11,7 @@ export const Hero = () => {
                         <div className="relative inline-flex before:absolute before:inset-0">
                             <Link
                             className="px-3 py-1 text-sm font-medium inline-flex items-center justify-center border rounded-full  text-zinc-300 hover:text-white transition duration-150 ease-in-out w-full group border-slate-100/40"
-                            href="https://twitter.com/BenVFXs"
+                            href="https://www.youtube.com/@PatrickHenry69420"
                             target="_blank"
                             >
                                 <span className="relative inline-flex items-center">
